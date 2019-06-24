@@ -1,6 +1,34 @@
-.heading {
-    background: url(bc.png) no-repeat;
+body {
+    background: #fefefe;
+}
+.navigation {
+    height: 60px;
+    width: 100vw;
+    background: #CA3C25;
+}
+
+.header {
+    width: 361px;
+    margin: auto;
 }
 .sectionHeader {
-    margin: auto;
+    color: #564E58;
+}
+section {
+    min-height: 200px;
+    padding: 20px 0 0 20px;
+}
+.footer {
+    background: #CA3C25;
+    color: #ffffff;
+    width: 100vw;
+    height: 50px;
+}
+.top {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.paragraph {
+    padding: 10px 10px;
 }
