@@ -2,14 +2,27 @@ body {
     background: #fefefe;
 }
 .navigation {
-    height: 60px;
+    height: 80px;
     width: 100vw;
     background: #CA3C25;
+    position: fixed;
+    top:0px;
+    left: 0;
+    box-sizing: border-box; 
+    display: block;
 }
 
 .header {
-    width: 361px;
-    margin: auto;
+    
+}
+.heading {
+    padding-top: 80px;
+    font-family: rubik;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    color: #f9c802;
+    text-shadow: 2px 2px 0 #e30613;
+    margin-left:25%;
 }
 .sectionHeader {
     color: #564E58;
@@ -17,6 +30,11 @@ body {
 section {
     min-height: 200px;
     padding: 20px 0 0 20px;
+}
+.sectionImg {
+    float: left;
+    width: 100%;border-radius: 180px;display:block;
+    
 }
 .footer {
     background: #CA3C25;
