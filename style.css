@@ -1,7 +1,7 @@
 body {
     background: #fefefe;
 }
-.navigation {
+.top__header {
     height: 80px;
     width: 100vw;
     background: #CA3C25;
@@ -11,11 +11,22 @@ body {
     box-sizing: border-box; 
     display: block;
 }
-.navigation__link--logo {
+.navigation {
+
+}
+.navigation__list {
+    list-style: none;
+    padding: 0;
+}
+.navigation__item {
+    display: inline;text-decoration: none;
+    
+}
+/*.navigation__link--logo {
     position: absolute;
     right: 40px;
     top: -60px;
-}
+}*/
 
 .header {
     
@@ -33,6 +44,22 @@ body {
     text-shadow: 2px 2px 4px #CA3C25;
     margin-left:25%;
 }
+
+
+
+
+.article-section a:hover{
+    background: #f9c802;
+}
+
+
+
+
+
+
+
+
+
 
 .section {
    
