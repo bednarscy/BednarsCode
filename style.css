@@ -5,11 +5,16 @@ body {
     height: 80px;
     width: 100vw;
     background: #CA3C25;
-    position: fixed;
-    top:0px;
-    left: 0;
+    position: relative;
+  /*  top:0px;
+    left: 0;*/
     box-sizing: border-box; 
     display: block;
+}
+.navigation__link--logo {
+    position: absolute;
+    right: 40px;
+    top: -60px;
 }
 
 .header {
@@ -30,7 +35,7 @@ body {
     padding: 20px 0 0 20px;
 }
 .section__header {
-    color: #564E58;
+    color: #1761A0;
 }
 .section__paragraph, .footer__paragraph {
     padding: 10px 10px;
