@@ -20,36 +20,45 @@ body {
 .header {
     
 }
+.main {
+    margin: auto;
+    width: 1200px;
+}
 .main__heading {
     padding-top: 80px;
     font-family: rubik;
     font-size: 3rem;
     letter-spacing: .5rem;
     color: #f9c802;
-    text-shadow: 2px 2px 0 #e30613;
+    text-shadow: 2px 2px 4px #CA3C25;
     margin-left:25%;
 }
 
 .section {
-    min-height: 200px;
+   
     padding: 20px 0 0 20px;
 }
 .section__header {
     color: #1761A0;
 }
-.section__paragraph, .footer__paragraph {
-    padding: 10px 10px;
+.section__paragraph {
+    padding: 10px 15px;
+    border-left: 3px solid cadetblue;
+    line-height: 24px;
+    font-family: Lato;
+    letter-spacing: 0.1rem;
 }
-.sectionImg {
-    float: left;
-    width: 100%;border-radius: 180px;display:block;
-    
-}
+
 .footer {
     background: #CA3C25;
     color: #ffffff;
     width: 100vw;
     height: 50px;
+}
+.footer__paragraph {
+    padding: 15px 30px;
+    font-family: lato;
+letter-spacing: 0.1rem;
 }
 .top {
     position: fixed;
