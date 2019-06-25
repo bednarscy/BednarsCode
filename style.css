@@ -15,7 +15,7 @@ body {
 .header {
     
 }
-.heading {
+.main__heading {
     padding-top: 80px;
     font-family: rubik;
     font-size: 3rem;
@@ -24,12 +24,16 @@ body {
     text-shadow: 2px 2px 0 #e30613;
     margin-left:25%;
 }
-.sectionHeader {
-    color: #564E58;
-}
-section {
+
+.section {
     min-height: 200px;
     padding: 20px 0 0 20px;
+}
+.section__header {
+    color: #564E58;
+}
+.section__paragraph, .footer__paragraph {
+    padding: 10px 10px;
 }
 .sectionImg {
     float: left;
@@ -46,7 +50,4 @@ section {
     position: fixed;
     bottom: 5px;
     right: 5px;
-}
-.paragraph {
-    padding: 10px 10px;
 }
