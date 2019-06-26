@@ -1,0 +1,22 @@
+body {
+    background: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    max-width: 624px;
+    width: 100%;
+    background: white;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+.person {
+    display: flex;
+    align-items: flex-start;
+}
+.card-photo {
+    margin-right: 32px;
+}
