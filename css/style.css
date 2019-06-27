@@ -5,7 +5,9 @@ html {
     box-sizing: inherit;
 }
 body {
-    background: #fefefe;
+
+    background: linear-gradient(to right, #f1f2b5, #135058);         
+
 }
 
 .top__header {
@@ -72,6 +74,7 @@ body {
 .section__header {
     color: #1761A0;
     font-size: 1.7rem;
+    line-height: 1.2;
 }
 
 .section__paragraph {
