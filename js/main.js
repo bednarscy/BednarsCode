@@ -9,9 +9,13 @@ const para = document.querySelectorAll('p');
 console.log (para);
 console.log (para[0]);
 
-//const head = document.querySelector('.main__heading--js');
-//console.log('head.innerHTML');
-//head.innerHTML = `NAGŁÓWEK`;
+const head = document.querySelector('.main__heading--js');
+console.log(head.innerHTML);
+console.log(`head.innerHTML`);
+console.log(`${head.innerHTML}`);
+console.log('${head.innerHTML}');
+console.log(' elo ' + head.innerHTML);
+head.innerHTML = `NAGŁÓWEK`;
 
 //const pracajs = document.querySelector('.pracajs--js');
 //pracajs.innerHTML  = 'Zrobiłem prace domowa';
@@ -43,7 +47,7 @@ switch (age){
 }
 
 const staruszek = (age > 90) ? 'yes' : 'no';
-console.log('staruszek');
+console.log(staruszek);
 
 let oldMan; 
 if (age > 80){
@@ -59,11 +63,31 @@ function calculate (x){
     return x*7
 }
 console.log (calculate(2));
+
 const myCalculation = calculate(4);
 console.log (myCalculation);
 
-// funkcja skrócona
 
+function hello (name, age) {
+    console.log (`${name}, ${age}`);   
+}
+hello('Matjas','29');
+hello('ŁUKASZ', 27);
+
+
+//praca domowa z gwiazdka
+
+function homework (name, age) {
+
+    console.log (`${name}, ${age}`);
+    console.log ('PRACA DOMOWA Z GWIAZDKĄ');
+}
+homework('matjas', 29*2);
+homework('Chrust', 27*2);
+homework('Łosiek', 18*2);
+
+
+// funkcja skrócona
 //const calculateFat = (x) => {
  //   x = x + 3;
   //  console.log  (` fat ${x}`);
@@ -73,7 +97,7 @@ console.log (myCalculation);
 
 //jeszcze bardziej skrociona
 
-const calculateFat = (x) => (x+3)*7;{
+//const calculateFat = (x) => (x+3)*7;{
 
-}
-console.log (calculateFat (2));
+//}
+//console.log (calculateFat (2));
