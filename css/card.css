@@ -20,6 +20,7 @@ body {
 .person__photo {
     margin-right: 32px;
     width: 670px;
+    border-radius: 50%;
 }
 .person__name {
     margin: 0;
