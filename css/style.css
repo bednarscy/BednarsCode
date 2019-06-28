@@ -13,7 +13,16 @@ body {
     
     
 }
+div.main-form {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.form {
+    width: 600px;
+    
 
+}
 .top__header {
     height: 80px;
     position: sticky;

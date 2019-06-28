@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
 body {
     background: #2C2141;
     min-height: 100vh;
@@ -36,5 +42,9 @@ body {
     font-weight: normal;
 }
 .person__description-end {
+    
+}
+.link {
+    text-decoration: none;
     color: #E20613;
 }
