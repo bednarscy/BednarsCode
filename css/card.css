@@ -25,7 +25,7 @@ body {
 }
 .person__photo {
     margin-right: 32px;
-    width: 670px;
+    width: 148px;
     border-radius: 50%;
 }
 .person__name {
@@ -37,14 +37,14 @@ body {
     font-style: italic;
     font-size: 18px;
 }
-.option {
+.person__description--option {
     color:#ED6D05;
     font-weight: normal;
 }
-.person__description-end {
+.person__description--end {
     
 }
-.link {
+.person__description--link {
     text-decoration: none;
     color: #E20613;
 }

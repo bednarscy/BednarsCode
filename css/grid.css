@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-template-areas: "header header header"
+    "content . menu"
+    "footer footer footer";
+    grid-template-columns: 600px 250px 400px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+.grid__item {
+    background: tomato;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end:3;
+    
+    grid-column-end: span 2;
+z-index: -1;
+}
+.header {
+    grid-area: header; 
+}
+.article {
+    grid-area: content;
+}
+.navigation {
+    grid-area: menu;
+}
+.footer {
+    grid-area: footer;
+}
