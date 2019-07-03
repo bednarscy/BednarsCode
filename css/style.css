@@ -7,7 +7,7 @@ html {
 body {
 
     background-color: #ffd06f;
-    background-image: linear-gradient(147deg, #ffd06f 0%, #f4f4f4 23%);
+    background-image: linear-gradient(#ffd06f 0%, #f4f4f4 23%);
     display: grid;
     grid-template-rows: 82px 1fr 82px;
     grid-template-areas: "header" "content" "footer";
@@ -136,11 +136,18 @@ body {
 .footer__paragraph--img{
 width: 50px;
 }
-@media (max-width:900px){
+
+@media (max-width:768px){
+    
     .navigation__item {
     display:none;
 } 
-    .news-section {
-    grid-template-columns: 1fr;
+    
 }
+
+@media (max-width:640px){
+    .news-section {
+        grid-template-columns: 1fr;
+    }
+    
 }
