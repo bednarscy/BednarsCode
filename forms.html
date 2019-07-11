@@ -13,31 +13,29 @@
 </head>
 
 <body>
-    <header class="top__header">
-        <nav class="navigation">
-            <ul class="navigation__list">
-
-                <li class="navigation__item">
-                    <a class="navigation__link" href="index.html">Strona główna</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="articles.html">Artykuły</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="forms.html">Formularze</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="card.html">Wizytówka</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link--logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
+        <header class="header">
+                <a class="navigation__link--logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <nav class="navigation">
+                        <ul class="navigation__list navigation__list--js">
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="index.html">Strona główna</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="articles.html">Artykuły</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="forms.html">Formularze</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="card.html">Wizytówka</a>
+                            </li>    
+                            
+                        </ul>
+                    </nav>
+                    <button class="navigation-switcher navigation-switcher--js" aria-label="Otwórz menu">
+                        <img src="img/switch.png"></button>
+                   <!-- <button class="navigation__button navigation__button--js">KLIKNIJ</button>-->
+        </header>
 
     <main id="top" class="main">
         <header class="main__header">
@@ -47,84 +45,14 @@
         <div class="main-form">
             <form action="https://dev.cotenfrontend.pl" method="POST" class="form">
                 <p>
-                    <label for="name">Wpisz imię:</label>
-                    <input name="name" id="name">
+                    <label for="name">Name:</label> <input name="name" id="name" value="Mateusz">
                 </p>
                 <p>
-                    <label for="pseudonim">Wpisz pseudonim:</label>
-                    <input name="name" id="pseudonim" placeholder="np. Łośka">
+                    <label for="surname">Nazwisko:</label> <input name="surname" id="surname">
+                    
                 </p>
-                <p>
-                    <label for="surname">Wpisz nazwisko:</label>
-                    <input type="text" value="" name="name" id="surname">
-                </p>
-                <p>
-                        <label for="age">Wpisz wiek:</label>
-                        <input type="number" value="" name="age" id="age">
-                    </p>
-                    <p>
-                            <label for="phone">nr telefonu</label>
-                            <input type="tel" value="" name="phone" id="phone">
-                        </p>
-                        <p>
-                                <label for="mail">mail</label>
-                                <input type="email" value="" name="mail" id="mail">
-                            </p>
-                <fieldset>
-                    <legend>Dane</legend>
-                    <p>
-                        <label for="radio1">Wybierz opcje 1:</label>
-                        <input type="radio" value="" name="radio" id="radio1">
-                    </p>
-                    <p>
-                        <label for="radio2">Wybierz opcje 2</label>
-                        <input type="radio" checked value=""  name="radio" id="radio2">
-                    </p>
-                    <p>
-                        <label for="radio3">Wybierz opcje 3:</label>
-                        <input type="radio" value="" name="radio2" id="radio3">
-                    </p>
-                      <p>
-                        <label for="radio4">Wybierz opcje 3:</label>
-                        <input type="radio" value="" name="radio2" id="radio4">
-                    </p>
-                </fieldset>
-                <p>
-                    <input type="checkbox" name="checkbox" id="checkbox1">
-                    <label for="checkbox1">Zaznacz to</label>
-                </p>
-                <p>
-                        <input type="checkbox" name="checkbox" id="checkbox2">
-                        <label for="checkbox2">Zaznacz ten</label>
-                    </p>
-                    <p>
-                            <label for="password">Wpisz hasło (UpperCase, LowerCase and Number):</label>
-                            <input type="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" name="password" id="password">
-                            
-                        </p>
-                        <p>
-                                <label for="file">Wybierz plik:</label>
-                                <input type="file" name="file" id="file">
-                                
-                            </p>
-                    <p>
-                            <label for="range">Zaznacz ten</label>
-                            <input type="range" min="0" max="100" step="10" value="15" name="range" id="range">
-                            
-                        </p>
-                        <p>
-                            <label for="select">Odpowiedz</label>
-                            <select name="select" id="select">
-                                <option>Taaa</option>
-                                <option>Nope</option>
-                                <option>Być może</option>
-                            </select>
-                        </p>
-                        <p>
-                            <label for="textarea">Napisz co myślisz</label><br>
-                            <textarea name="textarea" id="textarea">Wpisz tekst tutaj</textarea>
-                        </p>
-                        <input type="submit" value="Wyślij formularz">
+            
+                        <input type="submit" class="form-button" value="Wyślij formularz">
             </form>
         </div>
     </main>

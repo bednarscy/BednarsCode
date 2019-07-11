@@ -14,11 +14,9 @@
 
 <body>
     <header class="header">
+            <a class="navigation__link--logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
             <nav class="navigation">
-                    <ul class="navigation__list">
-                        <li class="navigation__item--logo">
-                            <a class="navigation__link--logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
-                        </li>
+                    <ul class="navigation__list navigation__list--js">
                         <li class="navigation__item">
                             <a class="navigation__link" href="index.html">Strona główna</a>
                         </li>
@@ -30,12 +28,13 @@
                         </li>
                         <li class="navigation__item">
                             <a class="navigation__link" href="card.html">Wizytówka</a>
-                        </li>
-                        <li class="navigation__item--logo">
-                            <button class="navigation__button navigation__button--js">KLIKNIJ</button>
-                        </li>
+                        </li>    
+                        
                     </ul>
                 </nav>
+                <button class="navigation-switcher navigation-switcher--js" aria-label="Otwórz menu">
+                    <img src="img/switch.png"></button>
+               <!-- <button class="navigation__button navigation__button--js">KLIKNIJ</button>-->
     </header>
 
     <main id="top" class="main">
@@ -44,7 +43,7 @@
         <section class="section">
             <h2 class="section__header">Coś o mnie</h2>
             <p class="section__paragraph">
-                <img alt="wiedźmin" class="section__image" src="https://scontent.flcj1-1.fna.fbcdn.net/v/t1.0-9/46375923_2190779400940490_4254418913485389824_n.jpg?_nc_cat=107&_nc_ht=scontent.flcj1-1.fna&oh=3864b35e1d99ee114cf39c1fa5428405&oe=5D7C7644"
+                <img alt="moje-zdjecie" class="section__image" src="https://scontent.flcj1-1.fna.fbcdn.net/v/t1.0-9/46375923_2190779400940490_4254418913485389824_n.jpg?_nc_cat=107&_nc_ht=scontent.flcj1-1.fna&oh=3864b35e1d99ee114cf39c1fa5428405&oe=5D7C7644"
                     width="100px;" style=" border-radius: 180px;display:block;">
                 "Oto dewiza człowieka o wyszukanym smaku: znaleźć to, co najlepsze, a o czym inni nawet nie słyszeli
                 [...]."
@@ -53,7 +52,7 @@
         <section class="section">
             <h2 class="section__header">Gdzie pracuje?</h2>
             <p class="section__paragraph">
-                <img alt="wiedźmin" class="section__image" src="https://www.seka.pl/wp-content/uploads/2017/10/200x200-AUNDE_case_study_SEKA_SA.jpg"
+                <img alt="logo-firmy" class="section__image" src="https://www.seka.pl/wp-content/uploads/2017/10/200x200-AUNDE_case_study_SEKA_SA.jpg"
                     width="150px;" style=" border-radius: 180px;display:block;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non consectetur nulla. Etiam ullamcorper
                 ultricies tincidunt. Curabitur quis sem non purus sollicitudin rhoncus ac ut mi. Vestibulum quis ex
@@ -63,7 +62,7 @@
         <section class="section">
             <h2 class="section__header">Co robię?</h2>
             <p class="section__paragraph">
-                <img alt="wiedźmin" class="section__image" src="https://5.allegroimg.com/s512/0399ea/dd65e65945b89bd57118c87e0ba5/KOMPLET-FOTELE-TAPICERKI-FIAT-500X-500-X"
+                <img alt="produkt-firmy" class="section__image" src="https://5.allegroimg.com/s512/0399ea/dd65e65945b89bd57118c87e0ba5/KOMPLET-FOTELE-TAPICERKI-FIAT-500X-500-X"
                     width="200px;" style=" border-radius: 180px;display:block;">
                 Donec at tellus et lectus feugiat auctor. Nullam bibendum magna ac justo feugiat iaculis. In feugiat
                 libero vitae sapien tristique fermentum. Vestibulum ullamcorper felis eu cursus consectetur. Sed eget
@@ -74,7 +73,7 @@
         <section class="section">
             <h2 class="section__header">Co chcę robić?</h2>
             <p class="section__paragraph">
-                <img alt="wiedźmin" class="section__image" src="https://www.studiolokomotywa.pl/wp-content/uploads/2017/10/programowanie-e1515768525107-1000x480.jpg"
+                <img alt="praca-marzeń" class="section__image" src="https://www.studiolokomotywa.pl/wp-content/uploads/2017/10/programowanie-e1515768525107-1000x480.jpg"
                     width="250px;" style=" border-radius: 180px;display:block;">
                 Sed finibus, neque vel venenatis aliquam, mi odio ornare lacus, eget fermentum elit enim a ligula. Sed
                 egestas fringilla risus, pretium imperdiet justo finibus non. Sed malesuada ligula quam, iaculis dictum

@@ -31,12 +31,18 @@ work (50, 'bednar');
 //work (doubleAge, name);
 
 
-const button = document.querySelector ('.navigation__button--js');
+//const button = document.querySelector ('.navigation__button--js');
 
 //console.log(button);
 
 //button.addEventListener('click', work);
-button.addEventListener('click', (e) => {
-    const headertext = document.querySelector ('.main__heading--js');
-    headertext.innerHTML = 'dobranoc Łośku :*'
-})
+//button.addEventListener('click', (e) => {
+ //   const headertext = document.querySelector ('.main__heading--js');
+  //  headertext.innerHTML = 'dobranoc'
+//})
+
+const navigationSwitcher = document.querySelector('.navigation-switcher--js');
+navigationSwitcher.addEventListener('click', (e) =>  {
+const navigationList = document.querySelector('.navigation__list--js');
+navigationList.classList.toggle('navigation__list--visible');
+});
