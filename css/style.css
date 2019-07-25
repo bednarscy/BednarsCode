@@ -34,9 +34,9 @@ body {
     position: sticky;
     top:0;
     box-sizing: border-box;
-    width: 100vw;
     grid-area: header;
-    background: #f0f0f0;box-shadow: 0px 0px 3px 1px #333333;
+    background: #f0f0f0;
+    box-shadow: 0px 0px 3px 1px #333333;
 }
 
 .navigation__list {
@@ -45,9 +45,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 60px;
 }
-
 .navigation__item {
     
     font-size: 19px;
@@ -160,6 +158,8 @@ width: 50px;
     .navigation__list {
         flex-direction: column;
         display: none;
+        height: 300px;
+        justify-content: space-between;
     }
     .navigation__item {
         font-size: 19px;
@@ -187,4 +187,5 @@ width: 50px;
 }
     .navigation__list--visible {
     display: flex;
+    background: #f0f0f0;
 }
